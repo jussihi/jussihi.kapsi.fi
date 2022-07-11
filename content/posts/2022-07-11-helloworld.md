@@ -1,6 +1,7 @@
 ---
 title: New website
 date: 2022-07-11
+lastmod: 2022-07-12
 tags: ["hugo", "www", "website"]
 draft: false
 ---
@@ -52,5 +53,8 @@ you are happy with the outcome, you can generate the static website by running
 ```
 hugo
 ```
-in the root directory. This will generate a `static` folder. The contents of 
+in the root directory. This will generate a `public` folder. The contents of 
 this folder can now be uploaded to the web server. Your new website is done!
+
+The Hugo code for this website can be found 
+[from my Github](https://github.com/jussihi/jussihi.kapsi.fi)!

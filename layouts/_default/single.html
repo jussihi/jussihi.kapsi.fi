@@ -7,7 +7,8 @@
       <section class="article">
         <div class="article-header">
           <h2 class="article-title">{{ .Title }}</h2>
-          <small class="date">{{ .Date.Format "Mon Jan 2, 2006" }}</small>
+          <small class="date">Published: {{ .Date.Format "Mon Jan 2, 2006" }}</small>
+          <small class="date">Last updated: {{ .Lastmod.Format "Mon Jan 2, 2006" }}</small>
           <div class="tags">
             {{ range $.Params.tags }}
             <a href="{{site.BaseURL}}tags/{{ . }}" class="tag">{{ . }}</a>

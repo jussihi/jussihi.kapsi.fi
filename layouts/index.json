@@ -18,6 +18,7 @@
       "content_text": {{ .Summary | jsonify }},
       "url": "{{ .Permalink }}",
       "date_published": "{{ .Date }}",
+      "date_updated": "{{ .Lastmod }}",
       "tags": ["{{ delimit .Params.tags "," }}"]
     }
   {{ end }}
