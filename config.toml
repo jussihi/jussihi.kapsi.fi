@@ -1,0 +1,21 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Jussi's blog"
+rssLimit = 20
+copyright = "2022 Jussi Hietanen All rights reserved"
+minify = false
+
+[Author]
+  name = "jussihi"
+  email = "jussi.hietanen@iki.fi"
+
+[permalinks]
+  posts = "/:year/:month/:day/:filename"
+  pages = "/:slug"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["html", "json", "rss"]

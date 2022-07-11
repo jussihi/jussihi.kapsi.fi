@@ -1,0 +1,22 @@
+name: Jussi Hietanen
+dp: https://avatars.githubusercontent.com/u/25184163?v=4
+description: "
+  <p>
+    My personal blog with some documentation about my IT-related fiddlings
+  </p>
+  <br/>
+  <p>
+    Please follow me on <a href='https://github.com/jussihi' target='_blank'>Github</a>
+  </P>
+"
+contact:
+  - title: linkedin
+    url: https://www.linkedin.com/in/jussi-hietanen-ba0320107/
+  - title: github
+    url: https://github.com/jussihi
+  - title: twitter
+    url: https://twitter.com/
+  - title: dev
+    url: https://dev.to/
+  - title: email
+    url: mailto:jussi.hietanen@iki.fi
