@@ -8,10 +8,10 @@ draft: false
 
 # Preface
 
-This post is a copy of an old "paper" I wrote as a requirement for a special 
-course for my University studies. The course was "CS-E4003 - Special 
-Assignment in Computer Science" in Aalto University, Finland. I got 5 ECTS 
-for this work.
+This post is a "blog-friendly" version of an old "paper" I wrote as a 
+requirement for a special course for my University studies. The course was 
+"CS-E4003 - Special Assignment in Computer Science" in Aalto University, 
+Finland. I got 5 ECTS for this work.
 
 The implementation of the rootkit described in this post and its installation 
 instructions can be found from my github page - 
