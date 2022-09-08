@@ -394,3 +394,37 @@ module binary.
 
 You should now have a malicious SMM module that is able to infect a ring-3 
 (user mode) Windows 10 process and persist between OS reinstalls!
+
+
+
+# References
+
+[1] Loıc Duflot, Daniel Etiemble, and Olivier Grumelard. “Using CPU system 
+management mode to circumvent operating system security functions”. In: 
+CanSecWest/core06 (2006).
+
+[2] Unified EFI. “Unified extensible firmware interface specification”. In: 
+Version 2.7 (2017).
+
+[3] Shawn Embleton, Sherri Sparks, and Cliff C Zou. “SMM rootkit: a new breed 
+of OS independent malware”. In: Security and Communication Networks 6.12 
+(2013), pp. 1590–1605.
+
+[4] Xeno Kovah and Corey Kallenberg. “How Many Million BIOSes Would you Like 
+to Infect?” In: Vancouver, BC, Canada). CanSecWest (2015).
+
+[5] Julian Rauchberger, Robert Luh, and Sebastian Schrittwieser. “Longkit-A 
+Universal Framework for BIOS/UEFI Rootkits in System Management Mode.” In: 
+ICISSP. 2017, pp. 346–353.
+
+[6] Joshua Schiffman and David Kaplan. “The SMM rootkit revisited: Fun with 
+USB”. In: 2014 Ninth International Conference on Availability, Reliability 
+and Security. IEEE. 2014, pp. 279–286.
+
+[7] Pavel Yosifovich, David A Solomon, and Alex Ionescu. Windows Internals, 
+Part 1: System architecture, processes, threads, memory management, and more. 
+Microsoft Press, 2017.
+
+[8] Vincent Zimmer, Michael Rothman, and Suresh Marisetty. Beyond BIOS: 
+developing with the Unified Extensible Firmware Interface. Walter de Gruyter 
+GmbH & Co KG, 2017.
