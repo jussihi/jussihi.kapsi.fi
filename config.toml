@@ -10,7 +10,7 @@ minify = false
   email = "jussi.hietanen@iki.fi"
 
 [permalinks]
-  posts = "/:year/:month/:day/:filename"
+  posts = "/:filename"
   pages = "/:slug"
 
 [taxonomies]
